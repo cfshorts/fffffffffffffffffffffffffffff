@@ -10,7 +10,6 @@ HEADERS = {
 }
 OUTPUT_FILE = "fawa_playlist.m3u8"
 
-
 def get_soup(url, retries=3):
     for i in range(retries):
         try:
@@ -23,7 +22,6 @@ def get_soup(url, retries=3):
             print(f"[!] Retry {i+1}/{retries} - Error: {e}")
             time.sleep(2)
     return None
-
 
 def extract_m3u8_from_script(html):
     patterns = [
@@ -38,7 +36,6 @@ def extract_m3u8_from_script(html):
         if match:
             return match.group(1)
     return None
-
 
 def scrape_fawanews():
     print("[*] Connecting to fawanews.sc...")
@@ -100,7 +97,6 @@ def scrape_fawanews():
 
     return streams
 
-
 def generate_m3u8(streams, filename=OUTPUT_FILE):
     if not streams:
         print("[!] No streams found to generate playlist.")
@@ -118,7 +114,6 @@ def generate_m3u8(streams, filename=OUTPUT_FILE):
 
     print(f"[+] Playlist generated successfully: {filename}")
     print(f"[+] Total streams: {len(streams)}")
-
 
 if __name__ == "__main__":
     print("[*] Starting FawaNews Scraper...")
