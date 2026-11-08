@@ -28,7 +28,7 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1
 #KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
 
-#EXTINF:-1 tvg-id="SKYSPORTSEPLAQ" tvg-name="SKY SPORTS EPL - AQ" group-title="Sports",SKY SPORTS EPL - AQ
+#EXTINF:-1 tvg-id="SKYSPORTSEPLAQ" tvg-name="SKY SPORTS EPL - AQ" group-title="Sports",SKY SPORTS PL - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f
